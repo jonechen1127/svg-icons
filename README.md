@@ -13,6 +13,13 @@ git clone git@github.com:jonechen1127/svg-icons.git
 
 参考文章：[SVG系列教程：SVG简介与嵌入HTML页面的方式](https://www.w3cplus.com/html5/svg-introduction-and-embedded-html-page.html)
 
+- 使用<iframe>元素来嵌入SVG图像
+- 使用<img>元素来嵌入SVG图像
+- 将SVG图像作为背景图像嵌入
+- 直接使用<svg>元素
+- 使用<embed>元素来嵌入SVG图像
+- 使用<object>元素来嵌入SVG图像
+  
 #### 如何修改svg颜色及大小
 
 * 修改颜色，打开svg目录，可以看到有很多的svg icon ，直接打开svg文件，给svg添加属性 fill="color" 即可，svg 默认颜色为黑色，如已经有fill属性，直接修改其值即可。
