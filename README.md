@@ -8,7 +8,13 @@
 git clone git@github.com:jonechen1127/svg-icons.git
 ```
 关于将SVG图像如何插入到网页中，有以下多种方法可供参考:
-
+* 使用<iframe>元素来嵌入SVG图像
+* 使用<img>元素来嵌入SVG图像
+* 将SVG图像作为背景图像嵌入
+* 直接使用<svg>元素
+* 使用<embed>元素来嵌入SVG图像
+* 使用<object>元素来嵌入SVG图像
+ <br/>
 
  
 #### 如何修改svg颜色及大小
@@ -19,6 +25,7 @@ git clone git@github.com:jonechen1127/svg-icons.git
 #### 为什么不采用字体图标？
 
 原因有两个：
+
 1、项目很小，项目当中用到的icon只有很小一部分，这个时候采用这种直接将svg插入到网页的方式就比较方便；
 
 2、按需定制，需要哪些图标，直接去iconfont上面下载svg格式，然后拖进svg目录即可。
