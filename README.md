@@ -14,7 +14,7 @@ git clone git@github.com:jonechen1127/svg-icons.git
 #### 如何修改svg颜色及大小
 
 * 修改颜色，打开svg目录，可以看到有很多的svg icon ，直接打开svg文件，给svg添加属性fill="color" 即可，svg 默认颜色为黑色，如已经有fill属性，直接修改其值即可。
-* 修改大小，这个取决于采用哪种方式将svg插入到网页中，推荐使用img标签来插入svg。
+* 修改大小，这个取决于采用哪种方式将svg插入到网页中，推荐使用img标签来插入svg，直接修改img大小即可。
 
 #### 为什么不采用字体图标？
 
