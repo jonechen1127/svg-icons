@@ -9,12 +9,7 @@ git clone git@github.com:jonechen1127/svg-icons.git
 ```
 关于将SVG图像如何插入到网页中，有以下多种方法可供参考:
 
-- 使用<iframe>元素来嵌入SVG图像
-- 使用<img>元素来嵌入SVG图像
-- 将SVG图像作为背景图像嵌入
-- 直接使用<svg>元素
-- 使用<embed>元素来嵌入SVG图像
-- 使用<object>元素来嵌入SVG图像
+
 
 参考文章：[SVG系列教程：SVG简介与嵌入HTML页面的方式](https://www.w3cplus.com/html5/svg-introduction-and-embedded-html-page.html)
 
