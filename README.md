@@ -7,7 +7,7 @@
 ```bash
 git clone git@github.com:jonechen1127/svg-icons.git
 ```
-关于将SVG图像如何插入到网页中，可以参考这篇文章：
+关于将svg图像如何插入到网页中，可以参考这篇文章：
 [SVG系列教程：SVG简介与嵌入HTML页面的方式](https://www.w3cplus.com/html5/svg-introduction-and-embedded-html-page.html)
  
   
@@ -28,4 +28,4 @@ git clone git@github.com:jonechen1127/svg-icons.git
 * [iconfont](http://www.iconfont.cn/) 
 * [icomoon](https://icomoon.io/)
 
-这里推荐上面两个网站，可以直接下载svg格式的图像，如果对下载的svg图像不满意，可以借助svg工具修改一下，譬如AI、Inkscape等软件。这里推荐Inkscape，小巧方便，可以直接导入和导出svg格式。
+这里推荐上面两个网站，可以直接下载svg格式的图像，如果对下载的svg图像不满意，可以借助svg工具修改一下，譬如[AI](http://www.adobe.com/cn/products/illustrator.html)、[Inkscape](https://inkscape.org/en/)等软件。这里推荐Inkscape，小巧方便，可以直接导入和导出svg格式。
