@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Svg-Icon</title>
+    <style>
+		*{padding:0;margin:0;list-style:none;}
+		h1{text-align: center;padding-top: 20px;}
+		#svg-list{overflow:hidden;margin:2%;font:16px/1.8em "mcirosoft yahei";padding: 15px 10px;border:1px solid #d9d9d9;}
+		#svg-list li{width:100px;margin:10px;float:left;background-repeat:no-repeat;background-size:contain;background-position:center;color:#666}
+		#svg-list li img{width:80px;height:80px;margin:0 auto;display:block;}
+		#svg-list li p{text-align:center;padding-top:10px;}
+    </style>
+</head>
+
+<body>
+	<h1>常用的一些Svg-Icon</h1>
+    <ul id="svg-list"></ul>
+    <script type="text/javascript">
+	    var svgArr = ['list', 'loop', 'next', 'next-1', 'pause', 'play', 'prev', 'prev-1', 'random', 'remove'];
+	    var html = '';
+	    for (var i = 0; i < svgArr.length; i++) {
+	        html += "<li ><img src='svg/" + svgArr[i] + ".svg'><p>" + svgArr[i] + "</p></li>";
+	    }
+	    document.querySelector("#svg-list").insertAdjacentHTML('beforeend', html);
+    </script>
+</body>
+
+</html>
