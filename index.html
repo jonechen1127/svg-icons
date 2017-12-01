@@ -5,17 +5,52 @@
     <meta charset="UTF-8">
     <title>Svg-Icon</title>
     <style>
-		*{padding:0;margin:0;list-style:none;}
-		h1{text-align: center;padding-top: 20px;}
-		#svg-list{overflow:hidden;margin:2%;font:16px/1.8em "mcirosoft yahei";padding: 15px 10px;border:1px solid #d9d9d9; }
-		#svg-list li{ margin:10px;border:2px solid #fff;border-radius: 6px; float: left;padding: 10px 25px;background: #fff;cursor: pointer;}
-		#svg-list li img{width:60px;height:60px;margin:0 auto;display:block;}
-		#svg-list li p{text-align:center;height: 25px;padding-top: 5px; }
+    * {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    h1 {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    #svg-list {
+        overflow: hidden;
+        margin: 2%;
+        font: 16px/1.8em "mcirosoft yahei";
+        padding: 15px 10px;
+        border: 1px solid #d9d9d9;
+    }
+
+    #svg-list li {
+        margin: 10px;
+        border: 2px solid #fff;
+        border-radius: 6px;
+        float: left;
+        padding: 10px 25px;
+        background: #fff;
+        cursor: pointer;
+    }
+
+    #svg-list li img {
+        width: 60px;
+        height: 60px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    #svg-list li p {
+        text-align: center;
+        height: 25px;
+        padding-top: 5px;
+    }
     </style>
 </head>
 
 <body>
-	<h1>常用的一些Svg-Icon</h1>
+    <h1>常用的一些Svg-Icon</h1>
     <ul id="svg-list"></ul>
     <script type="text/javascript">
 	    var svgArr = ['list', 'loop', 'next', 'next-1', 'pause', 'play', 'prev', 'prev-1', 'random', 'remove'];
@@ -26,12 +61,12 @@
 	    document.querySelector("#svg-list").insertAdjacentHTML('beforeend', html);
 	    var liArr = document.getElementById("svg-list").querySelectorAll('li');
 	    for (var i = 0; i < liArr.length; i++) {
-	    	liArr[i].onmouseenter=function(){
-	    		this.style.background = '#ddd';
-	    	}
-	    	liArr[i].onmouseleave=function(){
-	    		this.style.background = '';
-	    	}
+	        liArr[i].onmouseenter = function() {
+	            this.style.background = '#ddd';
+	        }
+	        liArr[i].onmouseleave = function() {
+	            this.style.background = '';
+	        }
 	    }
     </script>
 </body>
