@@ -30,4 +30,4 @@ git clone git@github.com:jonechen1127/svg-icons.git
 
 这里推荐上面两个网站，可以直接下载svg格式的图像，如果对下载的svg图像不满意，可以借助svg工具修改一下，譬如[AI](http://www.adobe.com/cn/products/illustrator.html)、[Inkscape](https://inkscape.org/en/)等软件。这里推荐Inkscape，小巧方便，可以直接导入和导出svg格式。
 
-#### [效果预览](/index.html)
+#### [效果预览](https://github.com/jonechen1127/svg-icons/blob/master/index.html)
