@@ -7,10 +7,10 @@
     <style>
 		*{padding:0;margin:0;list-style:none;}
 		h1{text-align: center;padding-top: 20px;}
-		#svg-list{overflow:hidden;margin:2%;font:16px/1.8em "mcirosoft yahei";padding: 15px 10px;border:1px solid #d9d9d9;}
-		#svg-list li{width:100px;margin:10px;float:left;background-repeat:no-repeat;background-size:contain;background-position:center;color:#666}
-		#svg-list li img{width:80px;height:80px;margin:0 auto;display:block;}
-		#svg-list li p{text-align:center;padding-top:10px;}
+		#svg-list{overflow:hidden;margin:2%;font:16px/1.8em "mcirosoft yahei";padding: 15px 10px;border:1px solid #d9d9d9; }
+		#svg-list li{ margin:10px;border:2px solid #fff;border-radius: 6px; float: left;padding: 10px 25px;background: #fff;cursor: pointer;}
+		#svg-list li img{width:60px;height:60px;margin:0 auto;display:block;}
+		#svg-list li p{text-align:center;height: 25px;padding-top: 5px; }
     </style>
 </head>
 
@@ -24,6 +24,15 @@
 	        html += "<li ><img src='svg/" + svgArr[i] + ".svg'><p>" + svgArr[i] + "</p></li>";
 	    }
 	    document.querySelector("#svg-list").insertAdjacentHTML('beforeend', html);
+	    var liArr = document.getElementById("svg-list").querySelectorAll('li');
+	    for (var i = 0; i < liArr.length; i++) {
+	    	liArr[i].onmouseenter=function(){
+	    		this.style.background = '#ddd';
+	    	}
+	    	liArr[i].onmouseleave=function(){
+	    		this.style.background = '';
+	    	}
+	    }
     </script>
 </body>
 
