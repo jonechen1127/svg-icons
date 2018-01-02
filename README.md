@@ -23,7 +23,7 @@ git clone git@github.com:jonechen1127/svg-icons.git
 * 项目很小，项目当中用到的icon只有很小一部分，这个时候采用这种直接将svg插入到网页的方式就比较方便，如果项目较大，还是采用引入字体图标这种方式吧！
 * 按需定制，需要哪些图标，直接去iconfont上面下载svg格式，然后拖进svg目录即可。
 
-#### SVG图像从哪来里？
+#### SVG图像从哪里来？
 
 * [iconfont](http://www.iconfont.cn/) 
 * [icomoon](https://icomoon.io/)
